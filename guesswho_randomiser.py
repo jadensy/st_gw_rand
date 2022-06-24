@@ -112,7 +112,7 @@ for feature in default_values:
 for feature in deck:
   random.shuffle(deck[feature])
 
-print(deck)
+# print(deck)
 
 df = pd.DataFrame(deck)
 df.index = range(1, df.shape[0] + 1)
